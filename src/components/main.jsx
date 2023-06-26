@@ -137,12 +137,12 @@ const CSVUploader = () => {
 
             <S.InputGroup>
               <label>
-                <span>Linha:</span>
+                <span>Linha/Excitação:</span>
                 <input onChange={(e) => setHighLightedRow(e.target.value)} />
               </label>
 
               <label>
-                <span>Coluna:</span>
+                <span>Coluna/Emissão:</span>
                 <input onChange={(e) => setHighLightedCol(e.target.value)} />
               </label>
             </S.InputGroup>
